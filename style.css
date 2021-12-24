@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: white;
+  
+}
+.container{
+  width: 350px;
+  text-align: center;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 1px 5px 40px rgba(117, 117, 117, 0.47);
+  z-index: 1
+}
+.logo{
+  text-align: center;
+  position: relative;
+}
+.logo img{
+  width: 250px;
+  height: 200px;
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.logo p{
+  position: absolute;
+  top: 140px;
+  right: 125px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 114, 0, 0.64);
+  font-family: 'Righteous', cursive;
+}
+.login input{
+  width: 265px;
+  height: 50px;
+  padding-left: 65px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(142, 142, 142, 0.48);
+  margin-top: 14px;
+  font-size: 17px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  transition: 0.5s;
+}
+.login input[type=submit]{
+  width: 333px;
+  height: 50px;
+  color: white;
+  background-color: rgba(0, 114, 0, 0.64);
+  font-size: 20px;
+  text-align: center;
+  margin: none;
+  margin-top: 20px;
+  padding-right:65px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  transition: 0.5s;
+  box-shadow: none;
+}
+::placeholder{
+  opacity: 0.4;
+  letter-spacing: 0.4px;
+}
+.login input[type=submit]:focus{
+  border: 3px solid rgba(0, 114, 0, 0.20);
+  background-color: white;
+  color: rgba(0, 114, 0, 0.67);
+}
+#login-icon{
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 14px;
+  font-size: 23px;
+  background-color: rgba(117, 117, 117, 0.59);
+  padding: 14.5px;
+  border-radius: 20px;
+  color: white;
+  transition: 0.5s;
+}
+#pass-icon{
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 14px;
+  font-size: 23px;
+  background-color: rgba(117, 117, 117, 0.59);
+  padding: 14.5px;
+  padding-left: 16.5px;
+  padding-right: 16.5px;
+  border-radius: 20px;
+  color: white;
+  transition: 0.5s;
+}
+.login a{
+  text-decoration: none;
+  outline: none;
+  color: rgba(0, 114, 0, 0.64);
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.or{
+  margin-top: 20px;
+  height: 10px;
+  width: 300px;
+  border-bottom: 1px solid rgba(117, 117, 117, 0.47);
+  margin: auto;
+  margin-bottom: 40px;
+  margin-top: 25px;
+}
+.or p{
+  background-color: white;
+  width: 50px;
+  margin: auto;
+  color: grey;
+  font-weight: 500;
+}
+.New-account button{
+  width: 333px;
+  height: 48px;
+  border-radius: 20px;
+  background-color: rgba(117, 117, 117, 0.59);
+  color: white;
+  font-weight: 700;
+  border: none;
+  margin-bottom: 30px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.New-account button:hover{
+  border: 3px solid rgba(117, 117, 117, 0.20);
+  background-color: white;
+  color: grey;
+}
+.container2{
+  background-color: rgba(0, 114, 0, 0.64);
+  position: absolute;
+  left: 499.7px;
+  width: 350px;
+  top: 40px;
+  height: 607.9px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  display: none;
+  border:none;
+  box-shadow: -3px 0px 0 rgba(0, 114, 0, 0.25);
+}
+.container2  h1{
+  color: white;
+  text-align: center;
+  margin-top: 250px;
+  font-family: 'Righteous', cursive;
+  font-weight: 100;
+}
+.container2 p{
+  color: white;
+  text-align: center;
+  margin-top: -5px;
+  font-weight: 500;
+}
+.container2 h5{
+  color: white;
+  letter-spacing: 10px;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.20);
+  color: white;
+  width: 150px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 15px;
+  margin-top:140px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-weight: 900;
+}
+.container2 i{
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.20);
+  color: white;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.20);
+}
+#ins,#in{
+  padding: 5px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-left: 10px;
+}
+#fb{
+  padding: 5px;
+  font-size: 16px;
+  padding-top: 7px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+#yt{
+  padding: 5px;
+  padding-top: 7px;
+  margin-left: 10px;
+}
+
+
+
+
+@media screen and (min-width: 851px){
+  body{
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .container{
+    width: 700px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  .logo {
+    text-align: left;
+    margin-left: 40px;
+  }
+  .logo p{
+    left: 65px;
+  }
+  .login a{
+    margin: 110px;
+  }
+  .or{
+    text-align: center;
+    margin-left: 17px;
+  }
+  .container2{
+    display: block;
+  }
+}
